@@ -1,0 +1,46 @@
+git bash commands 
+
+git Config --global user.name "<username>"
+git Config --global user.email "<email>"
+
+git init //to initialize the folder in git git init should be run
+git status //
+
+server to local pull 
+git clone <Repo-url> //pull from server
+
+git clone <repo-url> "folder_name" // for different folder name
+
+git remote -v //to find the url of repo
+
+git pull origin main // update the main project file 
+
+git log //to check the commit history
+
+git log --oneline //check history with brief in oneline
+
+git checkout commit_url //
+
+branching commands 
+git branch //gives list of branchs
+git beanch branch_name //create the branch 
+git branch -d hari //deletes the hari branch
+(if not small d user D(force delete))
+git checkout _hari //changes the branch
+git checkout ram //creates and change to ram branch
+
+git push origin <branch name> //push to the branch to server
+
+git push origin --all //all the branch are pushed to the server
+
+git push -d origin _hari //deletes the _hari branch from the server 
+
+git add folder.name //
+
+git commit -m "new files in new folder" //to commit new files in new folder
+
+git add. 
+git commit -m "commit for all remainning files"
+
+
+
